@@ -1,0 +1,49 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 5px;
+    
+}
+img{
+  width: 90px;
+}
+body{
+    background-image: url(/360_F_415790935_7va5lMHOmyhvAcdskXbSx7lDJUp0cfja.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+a:hover{
+  color: red;
+  }
+  a{
+      text-decoration: none;
+      color: Blue;
+
+  }
+.h{
+  padding-top: 4%;
+  text-align: center;
+  font-size: 50px;
+}
+.img{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 250px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  width: 150px;
+}
+h2{
+ font-size: 30px;
+}
